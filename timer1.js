@@ -1,4 +1,4 @@
-const beep = function () {
+const beep = function() {
   const args = process.argv.slice(2);
   if (args.length === 0) return;
 
